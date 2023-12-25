@@ -139,7 +139,6 @@ date: new Date()})
     src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAF3yD7LsRI&#x2F;view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
   </iframe>
 </div>
-F.Y. 設計的 <a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAF3yD7LsRI&#x2F;view?utm_content=DAF3yD7LsRI&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener">文學常識</a>
     <div v-for="(exam, index) in state.exams" :key="index">
       <v-text-field
         v-if="exam.type == 'blank'"
